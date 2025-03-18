@@ -5,7 +5,7 @@ const MenuItem = require('./schema');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://sarayu2926:XwWw9H6nrUD7fnfs@cluster0.0fqe3.mongodb.net/modify?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('mongodb+srv://uppalasadvika:272119@cluster0.ns9xh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
 
 })
   .then(() => console.log('Connected to MongoDB Atlas'))
